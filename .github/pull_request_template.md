@@ -14,16 +14,16 @@ Closes #<!-- Issue # here -->
 
 ## Status
 
-- [x] Not Completed
-- [ ] Completed
+-   [x] Not Completed
+-   [ ] Completed
 
 ## ✅ Checks
 
 <!-- Make sure your PR passes the tests and do check the following fields as needed - -->
 
-- [ ] My pull request adheres to the code style of this project
-- [ ] All the tests have passed
-- [ ] My pull request is based on the latest commit (not the npm version).
+-   [ ] My pull request adheres to the code style of this project
+-   [ ] All the tests have passed
+-   [ ] My pull request is based on the latest commit (not the npm version).
 
 <!--
 

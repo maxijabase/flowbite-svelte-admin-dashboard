@@ -36,5 +36,4 @@
         description: `${description}`,
         image: imgsrc,
         imageAlt: `${title}`
-    }}
-/>
+    }} />

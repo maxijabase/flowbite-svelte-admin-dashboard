@@ -32,7 +32,6 @@
             id="password"
             placeholder="••••••••"
             required
-            class="border outline-none dark:border-gray-600 dark:bg-gray-700"
-        />
+            class="border outline-none dark:border-gray-600 dark:bg-gray-700" />
     </div>
 </ProfileLock>

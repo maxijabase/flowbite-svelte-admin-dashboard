@@ -1,5 +1,4 @@
 <script>
-    import Notifications from '../utils/dashboard/NotificationList.svelte';
     import AppsMenu from '../utils/widgets/AppsMenu.svelte';
     import UserMenu from '../utils/widgets/UserMenu.svelte';
     import {
@@ -26,17 +25,14 @@
     <NavContainer class="mb-px mt-px px-1" {fluid}>
         <NavHamburger
             onClick={() => (drawerHidden = !drawerHidden)}
-            class="m-0 me-3 md:block lg:hidden"
-        />
+            class="m-0 me-3 md:block lg:hidden" />
         <NavBrand href="/" class={list ? 'w-40' : 'lg:w-60'}>
             <img
                 src="/images/flowbite-svelte-icon-logo.svg"
                 class="me-2.5 h-6 sm:h-8"
-                alt="Flowbite Logo"
-            />
+                alt="Flowbite Logo" />
             <span
-                class="ml-px self-center whitespace-nowrap text-xl font-semibold dark:text-white sm:text-2xl"
-            >
+                class="ml-px self-center whitespace-nowrap text-xl font-semibold dark:text-white sm:text-2xl">
                 Flowbite
             </span>
         </NavBrand>
@@ -45,8 +41,7 @@
                 <NavUl
                     class="ml-2"
                     activeUrl="/"
-                    activeClass="text-primary-600 dark:text-primary-500"
-                >
+                    activeClass="text-primary-600 dark:text-primary-500">
                     <NavLi href="/">Home</NavLi>
                     <NavLi href="#top">Messages</NavLi>
                     <NavLi href="#top">Profile</NavLi>
@@ -68,7 +63,6 @@
             {/if}
         </div>
         <div class="ms-auto flex items-center text-gray-500 dark:text-gray-400 sm:order-2">
-            <Notifications />
             <AppsMenu />
             <DarkMode />
             <UserMenu {...Users[4]} />

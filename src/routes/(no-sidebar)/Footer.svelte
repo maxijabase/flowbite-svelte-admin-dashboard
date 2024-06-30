@@ -10,8 +10,7 @@
                 <a
                     href="/"
                     class="text-sm font-normal text-gray-500 hover:underline dark:text-gray-400"
-                    >{elem}</a
-                >
+                    >{elem}</a>
             </li>
         {/each}
     </ul>

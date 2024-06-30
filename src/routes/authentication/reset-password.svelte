@@ -42,8 +42,7 @@
             id="email"
             placeholder="name@company.com"
             required
-            class={inputClass}
-        />
+            class={inputClass} />
     </div>
     <div>
         <Label for="password" class={labelClass}>Your password</Label>
@@ -53,8 +52,7 @@
             id="password"
             placeholder="••••••••"
             required
-            class={inputClass}
-        />
+            class={inputClass} />
     </div>
     <div>
         <Label for="confirm-password" class={labelClass}>Confirm password</Label>
@@ -64,7 +62,6 @@
             id="confirm-password"
             placeholder="••••••••"
             required
-            class={inputClass}
-        />
+            class={inputClass} />
     </div>
 </ResetPassword>

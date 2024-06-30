@@ -43,8 +43,7 @@
     {btnTitle}
     {termsLink}
     {loginLink}
-    on:submit={onSubmit}
->
+    on:submit={onSubmit}>
     <div>
         <Label class={labelClass}>
             <span>Your email</span>
@@ -53,8 +52,7 @@
                 name="email"
                 placeholder="name@company.com"
                 required
-                class="border outline-none dark:border-gray-600 dark:bg-gray-700"
-            />
+                class="border outline-none dark:border-gray-600 dark:bg-gray-700" />
         </Label>
     </div>
     <div>
@@ -65,8 +63,7 @@
                 name="password"
                 placeholder="••••••••"
                 required
-                class="border outline-none dark:border-gray-600 dark:bg-gray-700"
-            />
+                class="border outline-none dark:border-gray-600 dark:bg-gray-700" />
         </Label>
     </div>
     <div>
@@ -77,8 +74,7 @@
                 name="confirm-password"
                 placeholder="••••••••"
                 required
-                class="border outline-none dark:border-gray-600 dark:bg-gray-700"
-            />
+                class="border outline-none dark:border-gray-600 dark:bg-gray-700" />
         </Label>
     </div>
 </SignUp>

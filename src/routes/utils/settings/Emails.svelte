@@ -30,8 +30,7 @@
     title="Email Notifications"
     subtitle="You can set up Themesberg to get email notifications "
     {items}
-    let:item
->
+    let:item>
     <div class="flex items-center justify-between">
         <div class="flex flex-grow flex-col">
             <div class="text-lg font-semibold text-gray-900 dark:text-white">{item.title}</div>

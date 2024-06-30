@@ -20,8 +20,7 @@
                 <Button
                     href="#top"
                     class="px-3 py-2 dark:text-gray-400 dark:hover:text-white"
-                    color="light">Revoke</Button
-                >
+                    color="light">Revoke</Button>
             </div>
         </li>
         <li class="py-4">
@@ -38,8 +37,7 @@
                 <Button
                     href="#top"
                     class="px-3 py-2 dark:text-gray-400 dark:hover:text-white"
-                    color="light">Revoke</Button
-                >
+                    color="light">Revoke</Button>
             </div>
         </li>
     </ul>

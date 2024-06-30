@@ -30,8 +30,7 @@
             id="email"
             placeholder="name@company.com"
             required
-            class="border outline-none"
-        />
+            class="border outline-none" />
     </div>
     <Checkbox class="gap-1">I accept the <A href="/">Terms and Conditions</A></Checkbox>
 </ForgotPassword>

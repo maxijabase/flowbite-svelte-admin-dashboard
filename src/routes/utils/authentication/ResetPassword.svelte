@@ -37,8 +37,7 @@
                     <Checkbox class="accent-primary-600">
                         <span>
                             I accept the <a href={termsLink} class={termsLinkClass}
-                                >Terms and Conditions</a
-                            >
+                                >Terms and Conditions</a>
                         </span>
                     </Checkbox>
                 {/if}

@@ -46,8 +46,7 @@
     {loginTitle}
     {registerLink}
     {createAccountTitle}
-    on:submit={onSubmit}
->
+    on:submit={onSubmit}>
     <div>
         <Label for="email" class="mb-2 dark:text-white">Your email</Label>
         <Input
@@ -56,8 +55,7 @@
             id="email"
             placeholder="name@company.com"
             required
-            class="border outline-none dark:border-gray-600 dark:bg-gray-700"
-        />
+            class="border outline-none dark:border-gray-600 dark:bg-gray-700" />
     </div>
     <div>
         <Label for="password" class="mb-2 dark:text-white">Your password</Label>
@@ -67,7 +65,6 @@
             id="password"
             placeholder="••••••••"
             required
-            class="border outline-none dark:border-gray-600 dark:bg-gray-700"
-        />
+            class="border outline-none dark:border-gray-600 dark:bg-gray-700" />
     </div>
 </SignIn>

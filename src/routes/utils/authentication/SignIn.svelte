@@ -41,8 +41,7 @@
                     <div class="flex items-start">
                         {#if rememberMe}
                             <Checkbox class="accent-primary-600" name="remember"
-                                >Remember me</Checkbox
-                            >
+                                >Remember me</Checkbox>
                         {/if}
                         {#if lostPassword}
                             <A href={lostPasswordLink} aClass="ml-auto text-sm">Lost Password?</A>
